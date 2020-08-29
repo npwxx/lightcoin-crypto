@@ -1,10 +1,7 @@
-//let balance = 500.00;
-
 class Account {
 
   constructor(username) {
     this.username = username;
-    // Have the account balance start at $0 since that makes more sense.
     this._transactions = [];
   }
 
